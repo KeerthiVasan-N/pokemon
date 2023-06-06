@@ -1,0 +1,35 @@
+/* .card img {
+    width:80%;
+   height:80%; */
+   /* margin-inline:auto
+} */
+.pok{
+    width: 100px;
+    height: 96px;
+}
+.card{
+    border: 2px solid  saddlebrown ;
+    display: grid;
+    padding: 10px;
+    place-content: center;
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    transition: all 0.3s;
+    /* width: 90%;
+    height: 90%; */
+}
+.card:hover{
+cursor: pointer;
+transform: scale(1.07);
+}
+.card p{
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 18px;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
